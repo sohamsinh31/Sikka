@@ -7,6 +7,7 @@ set(
     src/block.c
     src/blockchain.c
     src/mine.c
+    src/peers.c
 )
 
 include_directories(./include)

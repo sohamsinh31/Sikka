@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
 
 #define BLOCK_SIZE 64
 #define MAX_NONCE 1000000
